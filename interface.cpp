@@ -2,7 +2,7 @@
 * @Author: jitmanyu
 * @Date:   2020-05-06 02:44:48
 * @Last Modified by:   jitmanyu
-* @Last Modified time: 2020-05-08 20:54:10
+* @Last Modified time: 2020-05-08 22:05:28
 */
 #include "jana_bank.h"
 
@@ -76,13 +76,6 @@ int main()
 			break;
 
 		}
-
-		// cout << "\n\nDO YOU WANT TO CONTINUE ?" << endl;
-
-		// cout << "[ y / n ]:";
-
-		// cin >> c;
-
 
 	} while (1);
 
