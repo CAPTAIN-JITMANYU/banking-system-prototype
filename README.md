@@ -1,16 +1,16 @@
 #### jana_bank.h 
-the bank class is defined
+The bank class is defined
 
 #### jana_accounting.h
-all the modules for modification in the acounts, viz.,
-- duplicacy check
-- new account
-- deactive account
-- show all accounts
-- withdrawal
-- deposit money
-- transfer money
-- modify acount
+All the modules for modification in the acounts, viz.,
+- Duplicacy check
+- New account
+- Deactive account
+- Show all accounts
+- Withdrawal
+- Deposit money
+- Transfer money
+- Modify acount
 
 #### interface.h
-user interface program
+User interface program
