@@ -2,12 +2,13 @@
 * @Author: jitmanyu
 * @Date:   2020-05-06 02:44:48
 * @Last Modified by:   jitmanyu
-* @Last Modified time: 2020-05-08 22:05:28
+* @Last Modified time: 2020-09-06 22:05:04
 */
 #include "jana_bank.h"
 
-#include "jana_accounting.h"
+// #include "jana_accounting.h"
 
+#include "temp_accounting.h"
 
 int main()
 {
@@ -47,6 +48,8 @@ int main()
 		cout << "* 7 * MODIFY DETAILS     *      Press 7 to Select       *" << endl;
 		cout << "*********************************************************" << endl;
 
+		cout << "* 8 * ACTIVE USERS       *      Press 8 to Select       *" << endl;
+		cout << "*********************************************************" << endl;
 
 
 		cout << "YOUR RESPONSE:";
@@ -75,6 +78,8 @@ int main()
 		case 7: modify_account();
 			break;
 
+		case 8 : activeUsers();
+			break;
 		}
 
 	} while (1);
