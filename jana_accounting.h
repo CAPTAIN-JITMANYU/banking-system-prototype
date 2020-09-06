@@ -527,7 +527,7 @@ void modify_account()
 
 			A.modify();
 
-			int pos = (-1) * sizeof(A);
+			long int pos = (-1) * sizeof(A);
 
 			f1.seekp(pos, ios::cur);
 
